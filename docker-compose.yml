@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  app:
+    build: .
+    environment:
+      - TWITTER_USERNAME=x_username
+      - WHATSAPP_API_URL=https://whatsapp-api-url/api/sendText
+      - WHATSAPP_SESSION=default
+      - WHATSAPP_CHAT_ID=905555555555@c.us
+      - FOLLOWER_INCREASED_TEXT=Takipçi arttı= %d
+      - FOLLOWER_DECREASED_TEXT=Takipçi azaldı= %d
