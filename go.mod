@@ -1,4 +1,4 @@
-module dizipal-redirecter
+module x-watcher
 
 go 1.20
 
